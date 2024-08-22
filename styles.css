@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-image: url('../images/logo.jpg'); /* Path to your image */
+    background-size: cover; /* Make sure the image covers the entire header */
+    background-position: center; /* Center the image in the header */
+    background-repeat: no-repeat; /* Ensure the image does not repeat */
+    color: #fff; /* Set text color to white for better contrast */
+    text-align: center; /* Center the text */
+    padding: 100px 0; /* Adjust padding to control the height of the header */
+}
+
+header h1 {
+    position: relative;
+    font-size: 48px; /* Adjust the font size as needed */
+    z-index: 1; /* Ensure the text is above the background */
+}
+
+/* Navigation */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #f4f4f4;
+}
+
+/* Main Content */
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Insert Picture in Main Content */
+.container img {
+    max-width: 100%; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+/* Forms */
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
